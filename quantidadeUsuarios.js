@@ -87,8 +87,35 @@ const layout = {
     
     }
 }
+  },
+    xaxis: {
+        title: {
+            text: 'nome das redes sociais',
+            font: {
+                color: getCSS('--secondary-color')
+            }
+        }
+    },
+    yaxis: {
+        title: {
+            text: 'bilhões de usuários ativos',
+            font: {
+                color: getCSS('--secondary-color')
+            }
+        }
+    }
+}
+const getCSS = (variavel) => {
+  return getComputedStyle(document.body).getPropertyValue(variavel)
+}
 
+const tickConfig = {
+  color: getCSS('--primary-color'),
+  size: 16,
+  family: getCSS('--font')
+}
 
+export { getCSS, tickConfig }
 
 
 
