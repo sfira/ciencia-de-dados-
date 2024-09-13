@@ -98,3 +98,7 @@ span {
   color: red;
   font-weight: bold;
 }
+.especial {
+  font-size: 20px; 
+  background-color: yellow;  
+}
