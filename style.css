@@ -102,3 +102,13 @@ span {
   font-size: 20px; 
   background-color: yellow;  
 }
+const data = [
+  {
+    x: 'nomeDasRedes',
+    y: quantidadeDeUsuarios,
+    type: 'bar',
+    marker: {
+      color: getComputedStyle(document.body).getPropertyValue('--primary-color')
+    }
+  }
+]
