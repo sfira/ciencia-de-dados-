@@ -33,7 +33,6 @@ const tickConfig = {
 }
 
 export { getCSS, tickConfig }
-// código omitido
 
   },
     xaxis: {
@@ -46,4 +45,3 @@ export { getCSS, tickConfig }
         }
     },
     
-// código omitido
