@@ -22,3 +22,28 @@ const layout = {
     plot_bgcolor: getCSS('--bg-color')
     paper_bgcolor: getCSS('--bg-color')
 }
+const getCSS = (variavel) => {
+  return getComputedStyle(document.body).getPropertyValue(variavel)
+}
+
+const tickConfig = {
+  color: getCSS('--primary-color'),
+  size: 16,
+  family: getCSS('--font')
+}
+
+export { getCSS, tickConfig }
+// código omitido
+
+  },
+    xaxis: {
+        tickfont: tickConfig,
+        title: {
+            text: 'nome das redes sociais',
+            font: {
+                color: getCSS('--secondary-color')
+            }
+        }
+    },
+    
+// código omitido
