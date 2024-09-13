@@ -94,3 +94,7 @@ span {
  font-weight: bold;
  color: var(--secondary-color);
 }
+.destaque {
+  color: red;
+  font-weight: bold;
+}
