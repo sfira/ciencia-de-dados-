@@ -6,7 +6,6 @@
     --secondary-color: #F05454;
     --font: "Nunito Sans", sans-serif;
 }
-/* código omitido */
 
 body {
     background-color: var(--bg-color);
@@ -15,34 +14,29 @@ body {
     height: 100vh;
     margin: 0;
 }
-/* código omitido */
 
 header {
     background-color: var(--primary-color);
     text-align: center;
 }
-/* código omitido */
 
 h1 {
     font-size: 2rem;
     color: var(--bg-color);
      font-weight: 700;
 }
-/* código omitido */
 
 nav {
     display: flex;
     justify-content: center;
     font-weight: 400;
 }
-/* código omitido */
 
 nav a {
     text-decoration: none;
     color: var(--bg-color);
      margin: 0 2rem 1rem 0rem;
 }
-/* código omitido */
 
 header {
     background-color: var(--primary-color);
@@ -50,29 +44,22 @@ header {
     padding: 1px;
 }
 
-/* código omitido */
-/* código omitido */
-
 nav a {
     text-decoration: none;
     color: var(--bg-color);
      margin: 0 2rem 1rem 0rem;
      font-size: 1.2rem;
 }
-/* código omitido */
 
 nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
 }
-/* código omitido */
-
 nav a:hover {
     text-decoration: underline;
     transform: scale(0.90);
     transition: transform 0.1s;
 }
-/* código omitido */
 
 footer {
     display: flex;
@@ -112,10 +99,8 @@ const data = [
     }
   }
 ]
-/* código omitido */
 
 .grafico {
     margin-top: 3rem;
 }
 
-/* código omitido */
