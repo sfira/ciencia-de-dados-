@@ -22,8 +22,6 @@ document.getElementById('graficos-container').appendChild(grafico)
 Plotly.newPlot(grafico, data)
 
 }
-
-quantidadeUsuarios()
 // código omitido
 
 const layout = {
@@ -37,10 +35,19 @@ const layout = {
          family: getCSS('--font'),
          size: 30
      }
-  }
+  },
+    xaxis: {
+    
+    },
+    yaxis: {
+     text: 'nome das redes sociais'
+      font: {
+                color: getCSS('--secondary-color')
+            }    
+    }
 }
 
 // código omitido
 
-      
+
 
