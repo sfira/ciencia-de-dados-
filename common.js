@@ -44,4 +44,8 @@ export { getCSS, tickConfig }
             }
         }
     },
-    
+
+function incluirTexto(texto) {
+
+}
+
