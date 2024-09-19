@@ -46,6 +46,6 @@ export { getCSS, tickConfig }
     },
 
 function incluirTexto(texto) {
-
+    const container = document.getElementById('graficos-container')
 }
 
