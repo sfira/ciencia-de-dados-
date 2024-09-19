@@ -58,6 +58,8 @@ async function redesFavoritasMundo() {
     }
 
     criarGrafico(data, layout)
+    incluirTexto(`Embora o <span>Instagram</span> ocupe a quarta posição de redes sociais com mais usuários no mundo, ela é a rede social que as pessoas mais gostam. Seguida de WhatsApp e Facebook.`)
 }
 
 redesFavoritasMundo()
+import { getCSS, criarGrafico, incluirTexto } from "./common.js"
