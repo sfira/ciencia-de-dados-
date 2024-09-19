@@ -29,8 +29,6 @@
     <script type="module" src="graficos/redesFavoritasMundo.js"></script>
 </body>
 </html>
-<!-- código omitido -->
-
     <script type="module" src="graficos/redesSociaisMinhaEscola.js"></script>
 </body>
 </html>
@@ -43,7 +41,6 @@ async function redesSociaisFavoritasMinhaEscola() {
     const redesSociais = dados.slice(1).map(redes = redes[1])
     console.table(dados)
 }
-
 redesSociaisFavoritasMinhaEscola()
 const contagemRedesSociais = redesSociais.reduce((acc, redesSociais) => {
     acc[redesSociais] = (acc[redesSociais] || 0) + 1
