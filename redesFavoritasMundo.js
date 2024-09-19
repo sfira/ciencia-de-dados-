@@ -50,3 +50,14 @@ function criarGrafico(data, layout) {
     }
     Plotly.newPlot(grafico, data, layout, config);
 }
+async function redesFavoritasMundo() {
+    const layout = {
+        legend: {
+        
+        }
+    }
+
+    criarGrafico(data, layout)
+}
+
+redesFavoritasMundo()
